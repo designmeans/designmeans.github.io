@@ -1,4 +1,12 @@
 body {
 	background: black;
 	color: white;
+	width: 600px;
 }
+h1 {
+	color: brown;
+}
+a {
+	color: tan;
+}
+

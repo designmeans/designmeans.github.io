@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background: #bbb;
+	width: 75%;
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+div {
+	padding: 5px 10px;
+}
+
+#nav {
+	background: black;
+	margin-bottom: 20px;
+}
+
+#nav ul {
+	margin: 5px;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	color: white;
+}
+
+.red-box {
+	background-color: red;
+	margin-top: 10px;
+}
+
+#blue-text {
+	color: blue;
+}
+
+#green-text {
+	color: green;
+}
+
+#yellow-text {
+	color: yellow;
+}

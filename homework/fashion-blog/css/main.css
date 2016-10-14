@@ -1,0 +1,57 @@
+.container {
+	width: 720px;
+	padding: 54px;
+	border-left: solid 6px #ddd;
+	color: #444;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+h1 {
+	color: red;
+	font-weight: 300;
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	color: black;
+	font-weight: 400;
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: black;
+}
+
+a {
+	color: #DD0000;
+}
+
+a:hover {
+	color: #AA0000;
+}
+
+nav a {
+	color: #ddd;
+}
+
+nav a:hover {
+	color: black;
+}
+
+img {
+	max-width: 100%;
+}
+
+.date {
+	color: #ccc;
+}
+
+.copyright {
+    color: #bbbbbb;
+}

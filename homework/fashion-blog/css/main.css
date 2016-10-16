@@ -18,14 +18,18 @@ h1 {
 
 h2 {
 	color: black;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 2em;
-	margin: 0;
+	margin: -10px 0 0 0;
 	padding: 0;
 }
 
 h3 {
 	color: black;
+	margin: -5px 0 5px 0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 300;
 }
 
 a {
@@ -48,10 +52,54 @@ img {
 	max-width: 100%;
 }
 
+ul {
+	padding: 0;
+	margin-top: 5px;
+}
+
+li {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 1.2em;
+}
+
+main {
+	margin-top: 40px;
+}
+
 .date {
 	color: #ccc;
+	font-size: 1.8em;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
 }
 
 .copyright {
     color: #bbbbbb;
+}
+
+.next {
+	display: block;
+	text-align: right;
+	color: red;
+	font-weight: 700; 
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+	margin-bottom: 30px;
+}
+
+footer a {
+	color: red;
+	text-decoration: none;
+	font-size: .8em;
+}
+
+footer li {
+	margin: 0;
+	padding: 0 5px;
+}
+
+footer li+li { 
+	border-left: 1px solid #ccc 
 }

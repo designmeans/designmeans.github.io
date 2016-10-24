@@ -14,14 +14,16 @@ h1 {
 	font-size: 4em;
 	margin: 0;
 	padding: 0;
+	float: left;
 }
 
 h2 {
 	color: black;
 	font-weight: 300;
 	font-size: 2em;
-	margin: -10px 0 0 0;
+	margin: 35px 0 0 15px;
 	padding: 0;
+	float: left;
 }
 
 h3 {
@@ -40,12 +42,16 @@ a:hover {
 	color: #AA0000;
 }
 
-nav a {
+.top_nav a {
 	color: #ddd;
+	background: black;
+	padding: 10px 20px;
+	border-right: 1px solid white;
+	text-decoration: none;
 }
 
 nav a:hover {
-	color: black;
+	color: red;
 }
 
 img {
@@ -59,12 +65,21 @@ ul {
 
 li {
 	display: inline-block;
-	margin-right: 15px;
+	
 	font-size: 1.2em;
 }
 
 main {
 	margin-top: 40px;
+	width: 500px;
+	float: left;
+}
+
+article p::first-letter { 
+    font-size: 500%;
+    color: #ddd;
+    float: left;
+    margin: -25px 5px;
 }
 
 .date {
@@ -89,6 +104,17 @@ main {
 	margin-bottom: 30px;
 }
 
+aside {
+	width: 200px;
+	margin: 20px 0 0 20px;
+	float: right;
+}
+
+aside p {
+	font-size: medium;
+	line-height: 1.5em;
+}
+
 footer a {
 	color: red;
 	text-decoration: none;
@@ -101,5 +127,9 @@ footer li {
 }
 
 footer li+li { 
-	border-left: 1px solid #ccc 
+	border-left: 1px solid #ccc; 
+}
+
+.clear {
+	clear: both;
 }

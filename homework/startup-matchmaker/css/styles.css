@@ -147,3 +147,18 @@ footer {
 	font-family: "Oswald", sans-serif;
 	padding: 10px 20px;
 }
+
+#burger {
+	display: none;
+}
+
+@media (max-width: 780px) {
+	header ul {
+		display: none;
+	}
+	#burger {
+		display: block;
+		float: right;
+		margin: 25px 20px 0 0;
+	}
+}

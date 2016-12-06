@@ -3,17 +3,26 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     $(this).ekkoLightbox();
 });
 
-var $grid = $('.grid');
+// var $grid = $('.grid');
 
+// $grid.imagesLoaded(function() {
+  // init Isotope after all images have loaded
+//  $grid.isotope({
+	  // options
+//	  itemSelector: '.grid-item',
+//	  layoutMode: 'masonry'
+//	});
+// });
 
-$grid.imagesLoaded(function() {
+var $grid = $('.grid').imagesLoaded( function() {
   // init Isotope after all images have loaded
   $grid.isotope({
-	  // options
-	  itemSelector: '.grid-item',
-	  layoutMode: 'masonry'
-	});
+    // options...
+    itemSelector: '.grid-item',
+	layoutMode: 'masonry'
+  });
 });
+
 
 $('#all-button').click(function () {
 	$grid.isotope({ filter: '*' });
